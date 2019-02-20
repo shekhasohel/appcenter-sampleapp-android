@@ -2,8 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.appcenter.sampleapp_android">
 
-    <uses-sdk android:minSdkVersion="16"
-          tools:overrideLibrary="com.microsoft.appcenter.push" />
+    <uses-sdk android:minSdkVersion="16" />
     
     <application
         android:allowBackup="true"
