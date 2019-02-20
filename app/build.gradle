@@ -24,7 +24,7 @@ dependencies {
     androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-    def appCenterSdkVersion = '1.10.0'
+    def appCenterSdkVersion = '1.11.0'
     implementation "com.microsoft.appcenter:appcenter-push:${appCenterSdkVersion}"
     implementation 'com.android.support:appcompat-v7:27.1.1'
     implementation 'com.android.support:design:27.1.1'
