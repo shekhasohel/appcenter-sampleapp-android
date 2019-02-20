@@ -3,7 +3,7 @@
     package="com.example.appcenter.sampleapp_android">
 
     <uses-sdk android:minSdkVersion="16"
-          android:targetSdkVersion="16" />
+          tools:overrideLibrary="com.microsoft.appcenter.push" />
     
     <application
         android:allowBackup="true"
